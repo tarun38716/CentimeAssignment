@@ -15,15 +15,15 @@ There is a eureka registry service which does the discovery of microservices.
 * Exposes a `POST /concatenate` - Which concatenates Name and Surname which service one consumes.
 
 #### API documentation can be accessed using below cloud url.
-    *http://ec2-3-23-20-42.us-east-2.compute.amazonaws.com/swagger-ui.html*
+    http://ec2-3-23-20-42.us-east-2.compute.amazonaws.com/swagger-ui.html
 
 ## Task 2 - Nested relationships with embedded H2 db connection
 
 * Exposes a `GET /people` - Which returns nested relationships with time complexity O(3N).
 * Exposed a `GET /people/{id}` - Which returns a record based on ID.
 
-### API documentation can be accessed using below cloud url.
-    *http://ec2-18-224-8-131.us-east-2.compute.amazonaws.com:9090/swagger-ui.html*
+#### API documentation can be accessed using below cloud url.
+    http://ec2-18-224-8-131.us-east-2.compute.amazonaws.com:9090/swagger-ui.html
 
 ## Future Improvement
 * Need work on tracing the requests spanning on the microservices.

@@ -1,0 +1,8 @@
+CREATE SCHEMA demo;
+
+CREATE TABLE demo.people (
+  id  INT NOT NULL IDENTITY (1, 1) PRIMARY KEY,
+  parentid INT NOT NULL,
+  name VARCHAR(50) NOT NULL,
+  color VARCHAR(50) NOT NULL
+);
