@@ -15,7 +15,7 @@ There is a eureka registry service which does the discovery of microservices.
 * Exposes a `POST /concatenate` - Which concatenates Name and Surname which service one consumes.
 
 #### API documentation can be accessed using below cloud url.
-    http://ec2-3-23-20-42.us-east-2.compute.amazonaws.com/swagger-ui.html
+    http://ec2-3-22-221-91.us-east-2.compute.amazonaws.com/swagger-ui.html
 
 ## Task 2 - Nested relationships with embedded H2 db connection
 
